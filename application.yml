@@ -5,10 +5,5 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 spring:
-  boot:
-    admin:
-      client:
-        url:
-        - http://admin:admin@localhost:8761/admin
    zipkin:
     base-url: http://localhost:9411
